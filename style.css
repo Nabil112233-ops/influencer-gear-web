@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-fonts{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared style */
+
+.display-flex{
+    display: flex;
+}
+
+
+/* nav style */
+.nav-icon{
+    width: 24px;
+    height: 24px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 70px;
+}
+nav ul{
+    display: flex;
+
+}
+.nav-items{
+    list-style: none;
+    margin-right: 34px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(58, 58, 58, 1.00);
+}
+.influencer-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1.00);
+}
+
+/* banner style */
+.banner-content{
+    width: 582px;
+    height: 270px;
+}
+.banner{
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+}
+.banner-title{
+    color: rgb(58, 58, 58);
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+.primary-btn{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(224, 44, 109);
+    border: none;
+    border-radius: 41px;
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+}
+.banner-image{
+    width: 440px;
+    height: 414px;
+    padding-top: 20px;
+    
+}
+.bg-box{
+    background-image: url(images/Circle\ design.svg);
+    background-position: center;
+    background-size: cover;
+    width: 475px;
+    height: 475px;
+    margin-top: 50px;
+}
